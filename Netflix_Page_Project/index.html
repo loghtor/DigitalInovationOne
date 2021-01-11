@@ -3,20 +3,71 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="CSS/style.css">
         <title>Netflix</title>
-        <script type="text/javascript" src="script.js"></script>
+        <!-- Responsividade-->
+        <link rel="stylesheet" href="CSS/responsive.css">
+        <!-- Owl Carousel CSS-->
+        <link rel="stylesheet" href="CSS/Owl/owl.carousel.min.css">
+        <link rel="stylesheet" href="CSS/Owl/owl.theme.default.min.css">      
     </head>
 <body>
-    <div class="container">
-        <h2>NETFLIX</h2>
-        <nav>
-            <a href="#">Início</a>
-            <a href="#">Séries</a>
-            <a href="#">Filmes</a>
-            <a href="#">Documentários</a>
-        </nav>
+    <header>
+        <div class="container">
+            <h2 class="logo">NETFLIX</h2>
+            <nav>
+                <a href="#">Início</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Documentários</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="filme_principal">
+            <div class="container">
+                <h3 class="titulo">DIRK GENTLY'S </br> HOLISTIC DETECTIVE AGENCY</h3>
+                <p class="descricao">A trama descrita como uma "comédia absurda", mostrará Elijah Wood como Todd, assistente do excêntrico detetive do título. </br> Juntos tentarão resolver um misterioso caso ao longo da primeira temporada.</p>
+                <div class="botoes">
+                    <button role="button" class="botao">
+                        <i class="fas fa-play-circle"></i>
+                        Assistir Agora
+                    </button>
+                    <button role="button" class="botao">
+                        <i class="fas fa-info-circle"></i>
+                        Mais informações
+                    </button>
+                </div>
+            </div>          
+        </div>
+    </main>
+
+    <div class="carrosel_filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item"><img src="img/mini01.jpg" alt="Filme" class="box_filme"></div>
+            <div class="item"><img src="img/mini02.jpg" alt="Filme" class="box_filme"></div>
+            <div class="item"><img src="img/mini03.jpg" alt="Filme" class="box_filme"></div>
+            <div class="item"><img src="img/mini04.jpg" alt="Filme" class="box_filme"></div>
+            <div class="item"><img src="img/mini05.jpg" alt="Filme" class="box_filme"></div>
+            <div class="item"><img src="img/mini06.jpg" alt="Filme" class="box_filme"></div>
+            <div class="item"><img src="img/mini07.jpg" alt="Filme" class="box_filme"></div>
+            <div class="item"><img src="img/mini08.jpg" alt="Filme" class="box_filme"></div>
+            <div class="item"><img src="img/mini09.jpg" alt="Filme" class="box_filme"></div>
+            <div class="item"><img src="img/mini10.jpg" alt="Filme" class="box_filme"></div>
+            <div class="item"><img src="img/mini11.jpg" alt="Filme" class="box_filme"></div>
+            <div class="item"><img src="img/mini12.jpg" alt="Filme" class="box_filme"></div>
+        </div>
     </div>
+
+    <!-- Ícones FontAwesome -->
+    <script src="https://kit.fontawesome.com/943b7266b6.js"></script>
+    <!-- Owl Carousel JavaScript/JQuery -->
+    <script src="JavaScript/Owl/owl_jquery.min.js"></script>
+    <script src="JavaScript/Owl/owl.carousel.min.js"></script>
+
+    <script type="text/javascript" src="./JavaScript/script.js"></script>
+
 </body>
 </html>
 
